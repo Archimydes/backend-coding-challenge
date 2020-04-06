@@ -21,7 +21,7 @@ As a user, I should be able to singup in the platform using the signup endpoint.
     Email
     Password
 
-* Email id format validation needs to be done in signup API 
+* Email ID format validation needs to be done in signup API 
 
 ### Authentication
 As a user/admin I should be able to login with my email and password. On successful login, I should get the user object as a response containing the below given details.
@@ -34,7 +34,7 @@ As a user/admin I should be able to login with my email and password. On success
 
 **Note:** Feel free to add any additional details if needed.
 
-* Email id format validation needs to be done in login API
+* Email ID format validation needs to be done in login API
 
 ### Create Story:
 As a user of the platform I should be able to create a user story (i.e Ticket or Card) which will contain the information about the task which needs to be performed by the developer. A user story typically will contain : 
@@ -54,10 +54,10 @@ As a user of the platform I should be able to create a user story (i.e Ticket or
 ### Story List:
 As a user, I should be able to get all the stories create by me. In case of admin, I should be able to see all the stories created by all the users in the system.
 The response should have the following details.
--   Id
+-   ID
 -   Summary
 -   Description
--   Type (like enhancement, bugfix, development, qa)
+-   Type (like enhancement, bugfix, development, QA)
 -   Complexity (Low, Mid, High)
 -   Estimated time for completion
 -   Cost
